@@ -52,8 +52,8 @@ cd ..
 The `.env` file is already configured with your MongoDB Atlas connection:
 
 ```env
-MONGODB_URI=mongodb+srv://Vaibhav123:Vaibhav123@mycluster.z4vvm.mongodb.net/?retryWrites=true&w=majority&appName=MyCLuster
-JWT_SECRET=shfH3984jsd@38hfH93bshkjdhf72!@3b$
+MONGODB_URI=mongodb+srv://[username]:[password]@[cluster-name].mongodb.net/?retryWrites=true&w=majority&appName=[app-name]
+JWT_SECRET=[your-secure-jwt-secret-key]
 PORT=5000
 NODE_ENV=development
 ```
